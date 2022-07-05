@@ -39,6 +39,26 @@ function getStyleDictionaryConfig(theme) {
             "selector": `.${theme}-theme`
           }]
       }
+    },
+      "android": {
+      "transformGroup": "android",
+      "buildPath": "output/",
+      "files": [{
+        "destination": "${theme}_colors.xml",
+        "format": "android/colors"
+      },{
+        "destination": "${theme}_font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "${theme}_dimens.xml",
+        "format": "android/dimens"
+      },{
+        "destination": "${theme}_integers.xml",
+        "format": "android/integers"
+     },{
+        "destination": "${theme}_strings.xml",
+        "format": "android/strings"
+      }]
     }
   };
 }
@@ -47,14 +67,14 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['global', 'dark', 'light'].map(function (theme) {
+['foundation', 'agree-culture', 'agree-fisheries', 'agree-livestock', 'agree-market'].map(function (theme) {
 
     console.log('\n==============================================');
     console.log(`\nProcessing: [${theme}]`);
 
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
-    StyleDictionary.buildPlatform('web');
+    StyleDictionary.buildPlatform('android');
 
     console.log('\nEnd processing');
 })
