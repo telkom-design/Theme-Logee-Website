@@ -74,7 +74,7 @@ console.log('Build started...');
 
     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
-    StyleDictionary.buildPlatform('android');
+    StyleDictionary.buildPlatform('web');
 
     console.log('\nEnd processing');
 })
