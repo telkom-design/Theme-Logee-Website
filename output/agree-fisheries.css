@@ -28,6 +28,7 @@
   --buttons-primary-active-color: #ffffff;
   --buttons-primary-focus-background-colors: #229bd8;
   --buttons-primary-focus-color: #ffffff;
+  --buttons-primary-focus-border-colors: #a3c9e8;
   --buttons-primary-disabled-background-color: #b1b1b1;
   --buttons-primary-disabled-color: #616161;
   --buttons-primary-border-width: 0;
@@ -39,6 +40,7 @@
   --buttons-secondary-active-color: #1e8ac1;
   --buttons-secondary-focus-background-color: #f2f6fb;
   --buttons-secondary-focus-color: #229bd8;
+  --buttons-secondary-focus-border-colors: #229bd8;
   --buttons-secondary-disabled-background-color: #f3f3f3;
   --buttons-secondary-disabled-color: #cecece;
   --buttons-secondary-border-width: 0;

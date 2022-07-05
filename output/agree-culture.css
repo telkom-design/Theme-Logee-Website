@@ -28,6 +28,7 @@
   --buttons-primary-active-color: #ffffff;
   --buttons-primary-focus-background-colors: #47af64;
   --buttons-primary-focus-color: #ffffff;
+  --buttons-primary-focus-border-colors: #aad2b2;
   --buttons-primary-disabled-background-color: #b1b1b1;
   --buttons-primary-disabled-color: #616161;
   --buttons-primary-border-width: 0;
@@ -39,10 +40,11 @@
   --buttons-secondary-active-color: #3f9c59;
   --buttons-secondary-focus-background-color: #f2f8f3;
   --buttons-secondary-focus-color: #47af64;
+  --buttons-secondary-focus-border-colors: #47af64;
   --buttons-secondary-disabled-background-color: #f3f3f3;
   --buttons-secondary-disabled-color: #cecece;
   --buttons-secondary-border-width: 0;
-  --buttons-border-radius: 500;
+  --buttons-border-radius: 8;
   --buttons-md-padding-left-right: 12;
   --buttons-md-padding-top-bottom: 8;
   --buttons-md-font-size: 16;

@@ -147,6 +147,10 @@
         "color": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "borderColors": {
+          "value": "#a3c9e8",
+          "type": "color"
         }
       },
       "_disabled": {
@@ -201,6 +205,10 @@
           "value": "#f2f6fb"
         },
         "color": {
+          "value": "#229bd8",
+          "type": "color"
+        },
+        "borderColors": {
           "value": "#229bd8",
           "type": "color"
         }

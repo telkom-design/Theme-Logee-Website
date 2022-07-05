@@ -147,6 +147,10 @@
         "color": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "borderColors": {
+          "value": "#aad2b2",
+          "type": "color"
         }
       },
       "_disabled": {
@@ -203,6 +207,10 @@
         "color": {
           "value": "#47af64",
           "type": "color"
+        },
+        "borderColors": {
+          "value": "#47af64",
+          "type": "color"
         }
       },
       "_disabled": {
@@ -221,7 +229,7 @@
       }
     },
     "borderRadius": {
-      "value": 500,
+      "value": 8,
       "type": "borderRadius"
     },
     "md": {
