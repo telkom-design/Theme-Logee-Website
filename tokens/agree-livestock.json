@@ -229,7 +229,7 @@
       }
     },
     "borderRadius": {
-      "value": 32,
+      "value": 4,
       "type": "borderRadius"
     },
     "md": {
