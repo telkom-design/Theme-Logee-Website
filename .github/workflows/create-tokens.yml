@@ -14,14 +14,12 @@ jobs:
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json tokens/foundation.json foundation
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/agree-culture.json foundation,agree-culture,theme foundation
+      - run: npx token-transformer tokens.json tokens/logee-transportation.json foundation,logee-transportation,theme foundation
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/agree-fisheries.json foundation,agree-fisheries,theme foundation
+      - run: npx token-transformer tokens.json tokens/logee-distribution.json foundation,logee-distribution,theme foundation
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/agree-livestock.json foundation,agree-livestock,theme foundation
+      - run: npx token-transformer tokens.json tokens/logee-control-tower.json foundation,logee-control-tower,theme foundation
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/agree-market.json foundation,agree-market,theme foundation
-      # Convert tokens according to Style Dictionary config
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4
