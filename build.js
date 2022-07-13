@@ -11,6 +11,19 @@ StyleDictionaryPackage.registerFormat({
     }
   });  
 
+const _ = require('lodash');
+const fs = require('fs');
+
+const typingsES6Template = _.template(
+  fs.readFileSync(`${__dirname}/template/es6.template`)
+);
+
+StyleDictionaryPackage.registerFormat({
+  name: 'typings/es6',
+  formatter: typingsES6Template,
+});
+
+
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
@@ -35,30 +48,10 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.css`,
-            "format": "css/variables",
+            "format": "typings/es6",
             "selector": `.${theme}-theme`
           }]
       }
-    },
-      "android": {
-      "transformGroup": "android",
-      "buildPath": "output/",
-      "files": [{
-        "destination": "${theme}_colors.xml",
-        "format": "android/colors"
-      },{
-        "destination": "${theme}_font_dimens.xml",
-        "format": "android/fontDimens"
-      },{
-        "destination": "${theme}_dimens.xml",
-        "format": "android/dimens"
-      },{
-        "destination": "${theme}_integers.xml",
-        "format": "android/integers"
-     },{
-        "destination": "${theme}_strings.xml",
-        "format": "android/strings"
-      }]
     }
   };
 }
