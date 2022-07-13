@@ -1,104 +1,112 @@
-.logee-transportation-theme {
-          --primary-25: #fdf9f8;
-  --primary-50: #fcf3f1;
-  --primary-100: #fae7e4;
-  --primary-200: #f6cdc5;
-  --primary-300: #f1afa1;
-  --primary-400: #ec8b72;
-  --primary-500: #e8590c;
-  --primary-600: #cf4f0a;
-  --primary-700: #b34409;
-  --primary-800: #923807;
-  --primary-900: #672705;
-  --buttons-lg-padding-left-right: 16;
-  --buttons-lg-padding-top-bottom: 12;
-  --buttons-lg-font-size: 18;
-  --buttons-lg-typography: [object Object];
-  --buttons-lg-icon-size: 20;
-  --buttons-sm-padding-left-right: 12;
-  --buttons-sm-padding-top-bottom: 8;
-  --buttons-sm-font-size: 14;
-  --buttons-sm-typography: [object Object];
-  --buttons-sm-icon-size: 12;
-  --buttons-primary-default-background-color: #e8590c;
-  --buttons-primary-default-color: #ffffff;
-  --buttons-primary-hover-background-color: #cf4f0a;
-  --buttons-primary-hover-color: #ffffff;
-  --buttons-primary-active-background-color: #b34409;
-  --buttons-primary-active-color: #ffffff;
-  --buttons-primary-focus-background-colors: #e8590c;
-  --buttons-primary-focus-color: #ffffff;
-  --buttons-primary-focus-border-colors: #f1afa1;
-  --buttons-primary-disabled-background-color: #b1b1b1;
-  --buttons-primary-disabled-color: #616161;
-  --buttons-primary-border-width: 0;
-  --buttons-secondary-default-background-color: #fcf3f1;
-  --buttons-secondary-default-color: #e8590c;
-  --buttons-secondary-hover-background-color: #fae7e4;
-  --buttons-secondary-hover-color: #cf4f0a;
-  --buttons-secondary-active-background-color: #f6cdc5;
-  --buttons-secondary-active-color: #cf4f0a;
-  --buttons-secondary-focus-background-color: #fcf3f1;
-  --buttons-secondary-focus-color: #e8590c;
-  --buttons-secondary-focus-border-colors: #f1afa1;
-  --buttons-secondary-disabled-background-color: #f3f3f3;
-  --buttons-secondary-disabled-color: #cecece;
-  --buttons-secondary-border-width: 0;
-  --buttons-border-radius: 8;
-  --buttons-md-padding-left-right: 12;
-  --buttons-md-padding-top-bottom: 8;
-  --buttons-md-font-size: 16;
-  --buttons-md-typography: [object Object];
-  --buttons-md-icon-size: 16;
-  --checkbox-default-background-color: #ffffff;
-  --checkbox-default-border: #cecece;
-  --checkbox-disabled-background-color: #e8e8e8;
-  --checkbox-disabled-border: #b1b1b1;
-  --checkbox-active-disable-background-color: #f1afa1;
-  --checkbox-active-disable-color: #ffffff;
-  --checkbox-active-disable-border: #e8590c;
-  --checkbox-active-background-color: #e8590c;
-  --checkbox-active-color: #ffffff;
-  --checkbox-active-border: #cf4f0a;
-  --checkbox-border-radius: 4;
-  --checkbox-border-width: 1;
-  --checkbox-text-enable: #3d3d3d;
-  --checkbox-text-disable: #8f8f8f;
-  --radio-border-width: 1;
-  --radio-default-background-color: #ffffff;
-  --radio-default-border: #cecece;
-  --radio-disable-background-color: #e8e8e8;
-  --radio-disable-border: #b1b1b1;
-  --radio-active-background-color: #ffffff;
-  --radio-active-border: #e8590c;
-  --radio-active-disable-background-color: #ffffff;
-  --radio-active-disable-border: #f1afa1;
-  --radio-text-enable: #3d3d3d;
-  --radio-text-disable: #8f8f8f;
-  --anchor-default-color: #e8590c;
-  --anchor-hover-color: #cf4f0a;
-  --anchor-active-color: #b34409;
-  --anchor-focus-color: #e8590c;
-  --anchor-focus-border-color: #f1afa1;
-  --anchor-disable-color: #b1b1b1;
-  --anchor-lg-font-size: 18;
-  --anchor-lg-icon-size: 20;
-  --anchor-md-font-size: 16;
-  --anchor-md-icon-size: 16;
-  --anchor-sm-font-size: 14;
-  --anchor-sm-icon-size: 12;
-  --switch-active-background-color: #e8590c;
-  --switch-active-disable-background-color: #f6cdc5;
-  --switch-nonactive-background-color: #b1b1b1;
-  --switch-nonactive-disable-background-color: #e8e8e8;
-  --button: [object Object];
-  --avatar-lg-size: 64;
-  --avatar-lg-icon-size: 40;
-  --avatar-lg-font-size: 18;
-  --avatar-md-size: 40;
-  --avatar-md-icon-size: 24;
-  --avatar-md-font-size: 16;
-  --avatar-sm-size: 32;
-  --avatar-sm-icon-size: 16;
-  --avatar-sm-font-size: 12;
-      }
+/**
+ * Do not edit directly
+ * Generated on Wed, 13 Jul 2022 17:24:39 GMT
+ */
+
+export const tokens = {
+primary-25: '#fdf9f8',
+primary-50: '#fcf3f1',
+primary-100: '#fae7e4',
+primary-200: '#f6cdc5',
+primary-300: '#f1afa1',
+primary-400: '#ec8b72',
+primary-500: '#e8590c',
+primary-600: '#cf4f0a',
+primary-700: '#b34409',
+primary-800: '#923807',
+primary-900: '#672705',
+buttons-lg-padding-left-right: '16',
+buttons-lg-padding-top-bottom: '12',
+buttons-lg-font-size: '18',
+buttons-lg-typography: '[object Object]',
+buttons-lg-icon-size: '20',
+buttons-sm-padding-left-right: '12',
+buttons-sm-padding-top-bottom: '8',
+buttons-sm-font-size: '14',
+buttons-sm-typography: '[object Object]',
+buttons-sm-icon-size: '12',
+buttons-primary-default-background-color: '#e8590c',
+buttons-primary-default-color: '#ffffff',
+buttons-primary-hover-background-color: '#cf4f0a',
+buttons-primary-hover-color: '#ffffff',
+buttons-primary-active-background-color: '#b34409',
+buttons-primary-active-color: '#ffffff',
+buttons-primary-focus-background-colors: '#e8590c',
+buttons-primary-focus-color: '#ffffff',
+buttons-primary-focus-border-colors: '#f1afa1',
+buttons-primary-disabled-background-color: '#b1b1b1',
+buttons-primary-disabled-color: '#616161',
+buttons-primary-border-width: '0',
+buttons-secondary-default-background-color: '#fcf3f1',
+buttons-secondary-default-color: '#e8590c',
+buttons-secondary-hover-background-color: '#fae7e4',
+buttons-secondary-hover-color: '#cf4f0a',
+buttons-secondary-active-background-color: '#f6cdc5',
+buttons-secondary-active-color: '#cf4f0a',
+buttons-secondary-focus-background-color: '#fcf3f1',
+buttons-secondary-focus-color: '#e8590c',
+buttons-secondary-focus-border-colors: '#f1afa1',
+buttons-secondary-disabled-background-color: '#f3f3f3',
+buttons-secondary-disabled-color: '#cecece',
+buttons-secondary-border-width: '0',
+buttons-border-radius: '8',
+buttons-md-padding-left-right: '12',
+buttons-md-padding-top-bottom: '8',
+buttons-md-font-size: '16',
+buttons-md-typography: '[object Object]',
+buttons-md-icon-size: '16',
+checkbox-default-background-color: '#ffffff',
+checkbox-default-border: '#cecece',
+checkbox-disabled-background-color: '#e8e8e8',
+checkbox-disabled-border: '#b1b1b1',
+checkbox-active-disable-background-color: '#f1afa1',
+checkbox-active-disable-color: '#ffffff',
+checkbox-active-disable-border: '#e8590c',
+checkbox-active-background-color: '#e8590c',
+checkbox-active-color: '#ffffff',
+checkbox-active-border: '#cf4f0a',
+checkbox-border-radius: '4',
+checkbox-border-width: '1',
+checkbox-text-enable: '#3d3d3d',
+checkbox-text-disable: '#8f8f8f',
+radio-border-width: '1',
+radio-default-background-color: '#ffffff',
+radio-default-border: '#cecece',
+radio-disable-background-color: '#e8e8e8',
+radio-disable-border: '#b1b1b1',
+radio-active-background-color: '#ffffff',
+radio-active-border: '#e8590c',
+radio-active-disable-background-color: '#ffffff',
+radio-active-disable-border: '#f1afa1',
+radio-text-enable: '#3d3d3d',
+radio-text-disable: '#8f8f8f',
+anchor-default-color: '#e8590c',
+anchor-hover-color: '#cf4f0a',
+anchor-active-color: '#b34409',
+anchor-focus-color: '#e8590c',
+anchor-focus-border-color: '#f1afa1',
+anchor-disable-color: '#b1b1b1',
+anchor-lg-font-size: '18',
+anchor-lg-icon-size: '20',
+anchor-md-font-size: '16',
+anchor-md-icon-size: '16',
+anchor-sm-font-size: '14',
+anchor-sm-icon-size: '12',
+switch-active-background-color: '#e8590c',
+switch-active-disable-background-color: '#f6cdc5',
+switch-nonactive-background-color: '#b1b1b1',
+switch-nonactive-disable-background-color: '#e8e8e8',
+button: '[object Object]',
+avatar-lg-size: '64',
+avatar-lg-icon-size: '40',
+avatar-lg-font-size: '18',
+avatar-md-size: '40',
+avatar-md-icon-size: '24',
+avatar-md-font-size: '16',
+avatar-sm-size: '32',
+avatar-sm-icon-size: '16',
+avatar-sm-font-size: '12',
+
+}
+
+export default tokens
