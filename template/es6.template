@@ -1,0 +1,12 @@
+/**
+ * Do not edit directly
+ * Generated on <%= new Date().toUTCString() %>
+ */
+
+export const tokens = {
+<% _.each(allTokens, function(prop) {
+%><%= prop.name %>: '<%= prop.value %>',<% if (prop.comment) { %> // <%= prop.comment %><% } %>
+<% }); %>
+}
+
+export default tokens
