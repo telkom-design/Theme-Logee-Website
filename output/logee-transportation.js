@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 18:44:10 GMT
+ * Generated on Tue, 19 Jul 2022 18:48:23 GMT
  */
 
 export const primary-25 = "#fdf9f8";
