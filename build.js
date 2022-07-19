@@ -27,6 +27,7 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
+    matcher: isSize,
     transformer: function(prop) {
       const val = parseFloat(prop.value);
       if (isNaN(val)) throwSizeError(prop.name, prop.value, 'px');
