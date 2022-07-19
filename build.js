@@ -27,7 +27,7 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: (token) => typeof token.value === "string" && token.value.indexOf("px") !== -1,
+    matcher: (prop) => typeof prop.value === "string" && prop.value.indexOf("px") !== -1,
     transformer: function(prop) {
         // You can also modify the value here if you want to convert pixels to ems
         return parseFloat(prop.original.value) + 'px';
