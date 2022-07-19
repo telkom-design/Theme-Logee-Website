@@ -60,17 +60,38 @@
         "value": 18
       },
       "typography": {
-        "value": {
-          "fontFamily": "Nunito Sans",
-          "fontWeight": "Bold",
-          "lineHeight": 24,
-          "fontSize": 16,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
       },
       "IconSize": {
         "value": 20,
@@ -91,17 +112,38 @@
         "value": 14
       },
       "typography": {
-        "value": {
-          "fontFamily": "Nunito Sans",
-          "fontWeight": "Bold",
-          "lineHeight": 18,
-          "fontSize": 12,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
       },
       "IconSize": {
         "value": 12,
@@ -246,17 +288,38 @@
         "type": "fontSizes"
       },
       "typography": {
-        "value": {
-          "fontFamily": "Nunito Sans",
-          "fontWeight": "Bold",
-          "lineHeight": 20,
-          "fontSize": 14,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none",
-          "textDecoration": "none"
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
         },
-        "type": "typography"
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
       },
       "IconSize": {
         "value": 16,
@@ -481,15 +544,30 @@
     }
   },
   "Button": {
-    "value": {
-      "x": 0,
-      "y": 0,
-      "blur": 0,
-      "spread": 0,
-      "color": "#000000",
-      "type": "dropShadow"
+    "x": {
+      "value": 0,
+      "type": "x"
     },
-    "type": "boxShadow"
+    "y": {
+      "value": 0,
+      "type": "y"
+    },
+    "blur": {
+      "value": 0,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    },
+    "color": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
   },
   "Avatar": {
     "lg": {

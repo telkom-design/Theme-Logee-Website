@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 18:54:26 GMT
+ * Generated on Tue, 19 Jul 2022 18:58:15 GMT
  */
 
 export const primary-25 = "#fdf9f8";
@@ -17,12 +17,26 @@ export const primary-900 = "#672705";
 export const buttons-lg-padding-left-right = "16px";
 export const buttons-lg-padding-top-bottom = "12px";
 export const buttons-lg-font-size = "18px";
-export const buttons-lg-typography = "NaNpx";
+export const buttons-lg-typography-font-family = "Nunito Sans";
+export const buttons-lg-typography-font-weight = "Bold";
+export const buttons-lg-typography-line-height = "24px";
+export const buttons-lg-typography-font-size = "16px";
+export const buttons-lg-typography-letter-spacing = "0px";
+export const buttons-lg-typography-paragraph-spacing = "0px";
+export const buttons-lg-typography-text-case = "none";
+export const buttons-lg-typography-text-decoration = "none";
 export const buttons-lg-icon-size = "20px";
 export const buttons-sm-padding-left-right = "12px";
 export const buttons-sm-padding-top-bottom = "8px";
 export const buttons-sm-font-size = "14px";
-export const buttons-sm-typography = "NaNpx";
+export const buttons-sm-typography-font-family = "Nunito Sans";
+export const buttons-sm-typography-font-weight = "Bold";
+export const buttons-sm-typography-line-height = "18px";
+export const buttons-sm-typography-font-size = "12px";
+export const buttons-sm-typography-letter-spacing = "0px";
+export const buttons-sm-typography-paragraph-spacing = "0px";
+export const buttons-sm-typography-text-case = "none";
+export const buttons-sm-typography-text-decoration = "none";
 export const buttons-sm-icon-size = "12px";
 export const buttons-primary-default-background-color = "#e8590c";
 export const buttons-primary-default-color = "#ffffff";
@@ -52,7 +66,14 @@ export const buttons-border-radius = "8px";
 export const buttons-md-padding-left-right = "12px";
 export const buttons-md-padding-top-bottom = "8px";
 export const buttons-md-font-size = "16px";
-export const buttons-md-typography = "NaNpx";
+export const buttons-md-typography-font-family = "Nunito Sans";
+export const buttons-md-typography-font-weight = "Bold";
+export const buttons-md-typography-line-height = "20px";
+export const buttons-md-typography-font-size = "14px";
+export const buttons-md-typography-letter-spacing = "0px";
+export const buttons-md-typography-paragraph-spacing = "0px";
+export const buttons-md-typography-text-case = "none";
+export const buttons-md-typography-text-decoration = "none";
 export const buttons-md-icon-size = "16px";
 export const checkbox-default-background-color = "#ffffff";
 export const checkbox-default-border = "#cecece";
@@ -95,7 +116,12 @@ export const switch-active-background-color = "#e8590c";
 export const switch-active-disable-background-color = "#f6cdc5";
 export const switch-nonactive-background-color = "#b1b1b1";
 export const switch-nonactive-disable-background-color = "#e8e8e8";
-export const button = "NaNpx";
+export const button-x = "0px";
+export const button-y = "0px";
+export const button-blur = "0px";
+export const button-spread = "0px";
+export const button-color = "#000000";
+export const button-type = "dropShadow";
 export const avatar-lg-size = "64px";
 export const avatar-lg-icon-size = "40px";
 export const avatar-lg-font-size = "18px";
