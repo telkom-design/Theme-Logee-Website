@@ -28,12 +28,9 @@ StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
     matcher: function(prop) {
-        // You can be more specific here if you only want 'em' units for font sizes    
+         // You can be more specific here if you only want 'em' units for font sizes    
         return prop.attributes.category === 'fontSize' && 
-        prop.attributes.category === 'spacing' && 
-        prop.attributes.category === 'borderRadius' && 
-        prop.attributes.category === 'borderWidth' && 
-        prop.attributes.category === 'sizing';
+        'spacing' && 'borderRadius' && 'borderWidth' && 'sizing';
     },
     transformer: function(prop) {
         // You can also modify the value here if you want to convert pixels to ems
