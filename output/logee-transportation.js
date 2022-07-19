@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Jul 2022 17:28:21 GMT
+ * Generated on Tue, 19 Jul 2022 17:23:40 GMT
  */
 
 export const primary-25 = "#fdf9f8";
@@ -48,7 +48,7 @@ export const buttons-secondary-focus-border-colors = "#f1afa1";
 export const buttons-secondary-disabled-background-color = "#f3f3f3";
 export const buttons-secondary-disabled-color = "#cecece";
 export const buttons-secondary-border-width = 0;
-export const buttons-border-radius = 8;
+export const buttons-border-radius = "8px";
 export const buttons-md-padding-left-right = 12;
 export const buttons-md-padding-top-bottom = 8;
 export const buttons-md-font-size = 16;
@@ -64,11 +64,11 @@ export const checkbox-active-disable-border = "#e8590c";
 export const checkbox-active-background-color = "#e8590c";
 export const checkbox-active-color = "#ffffff";
 export const checkbox-active-border = "#cf4f0a";
-export const checkbox-border-radius = 4;
-export const checkbox-border-width = 1;
+export const checkbox-border-radius = "4px";
+export const checkbox-border-width = "1px";
 export const checkbox-text-enable = "#3d3d3d";
 export const checkbox-text-disable = "#8f8f8f";
-export const radio-border-width = 1;
+export const radio-border-width = "1px";
 export const radio-default-background-color = "#ffffff";
 export const radio-default-border = "#cecece";
 export const radio-disable-background-color = "#e8e8e8";
