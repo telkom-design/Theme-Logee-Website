@@ -27,16 +27,12 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: function(prop) {
-         // You can be more specific here if you only want 'em' units for font sizes    
-        return prop.attributes.category === 'fontSize' && 
-        'spacing' && 'borderRadius' && 'borderWidth' && 'sizing';
-    },
+    matcher: isSize,
     transformer: function(prop) {
-        // You can also modify the value here if you want to convert pixels to ems
-        return parseFloat(prop.original.value) + 'px';
+      const val = parseFloat(prop.value);
+      if (isNaN(val)) throwSizeError(prop.name, prop.value, 'px');
+      return val + 'px';
     }
-    });
 
 function getStyleDictionaryConfig(theme) {
   return {
@@ -45,7 +41,7 @@ function getStyleDictionaryConfig(theme) {
     ],
     "platforms": {
       "web": {
-        "transforms": ["attribute/cti", "name/cti/kebab", "size/px"],
+        "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `output/`,
         "files": [{
             "destination": `${theme}.js`,
