@@ -27,13 +27,12 @@ StyleDictionaryPackage.registerFormat({
 StyleDictionaryPackage.registerTransform({
     name: 'sizes/px',
     type: 'value',
-    matcher: isSize,
+    matcher: (token) => typeof token.value === "string" && token.value.indexOf("px") !== -1,
     transformer: function(prop) {
-      const val = parseFloat(prop.value);
-      if (isNaN(val)) throwSizeError(prop.name, prop.value, 'px');
-      return val + 'px';
+        // You can also modify the value here if you want to convert pixels to ems
+        return parseFloat(prop.original.value) + 'px';
     }
-});
+    });
 
 function getStyleDictionaryConfig(theme) {
   return {
