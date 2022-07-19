@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 17:43:35 GMT
+ * Generated on Tue, 19 Jul 2022 18:31:55 GMT
  */
 
 export const elevation-0 = {"color":"#ebf0ff","type":"dropShadow","x":0,"y":0,"blur":0,"spread":2};
@@ -24,16 +24,16 @@ export const font-weights-bold = "Bold";
 export const font-weights-regular = "Regular";
 export const font-weights-semi-bold = "SemiBold";
 export const font-weights-italic = "Italic";
-export const font-size-0 = "10px";
-export const font-size-1 = "12px";
-export const font-size-2 = "14px";
-export const font-size-3 = "16px";
-export const font-size-4 = "18px";
-export const font-size-5 = "20px";
-export const font-size-6 = "22px";
-export const font-size-7 = "24px";
-export const font-size-8 = "28px";
-export const font-size-9 = "34px";
+export const font-size-0 = 10;
+export const font-size-1 = 12;
+export const font-size-2 = 14;
+export const font-size-3 = 16;
+export const font-size-4 = 18;
+export const font-size-5 = 20;
+export const font-size-6 = 22;
+export const font-size-7 = 24;
+export const font-size-8 = 28;
+export const font-size-9 = 34;
 export const letter-spacing-0 = 0;
 export const letter-spacing-1 = -0.08;
 export const paragraph-spacing-0 = 0;
