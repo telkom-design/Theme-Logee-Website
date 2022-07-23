@@ -1,0 +1,612 @@
+{
+  "Primary": {
+    "25": {
+      "value": "#f8faf8",
+      "type": "color"
+    },
+    "50": {
+      "value": "#f1f5f2",
+      "type": "color"
+    },
+    "100": {
+      "value": "#e4ece5",
+      "type": "color"
+    },
+    "200": {
+      "value": "#c5d7c8",
+      "type": "color"
+    },
+    "300": {
+      "value": "#a1c0a5",
+      "type": "color"
+    },
+    "400": {
+      "value": "#72a67a",
+      "type": "color"
+    },
+    "500": {
+      "value": "#008832",
+      "type": "color"
+    },
+    "600": {
+      "value": "#00792c",
+      "type": "color"
+    },
+    "700": {
+      "value": "#006926",
+      "type": "color"
+    },
+    "800": {
+      "value": "#00561f",
+      "type": "color"
+    },
+    "900": {
+      "value": "#003c16",
+      "type": "color"
+    }
+  },
+  "Buttons": {
+    "lg": {
+      "paddingLeft-Right": {
+        "type": "spacing",
+        "value": 16
+      },
+      "paddingTop-Bottom": {
+        "type": "spacing",
+        "value": 12
+      },
+      "fontSize": {
+        "type": "fontSizes",
+        "value": 18
+      },
+      "typography": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "IconSize": {
+        "value": 20,
+        "type": "sizing"
+      }
+    },
+    "sm": {
+      "paddingLeft-Right": {
+        "type": "spacing",
+        "value": 12
+      },
+      "paddingTop-Bottom": {
+        "type": "spacing",
+        "value": 8
+      },
+      "fontSize": {
+        "type": "fontSizes",
+        "value": 14
+      },
+      "typography": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "IconSize": {
+        "value": 12,
+        "type": "sizing"
+      }
+    },
+    "Primary": {
+      "_default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#008832"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "_hover": {
+        "backgroundColor": {
+          "value": "#00792c",
+          "type": "color"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "_active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#006926"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "_focus": {
+        "backgroundColors": {
+          "type": "color",
+          "value": "#008832"
+        },
+        "color": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "borderColors": {
+          "value": "#a1c0a5",
+          "type": "color"
+        }
+      },
+      "_disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#b1b1b1"
+        },
+        "color": {
+          "type": "color",
+          "value": "#616161"
+        }
+      },
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
+      }
+    },
+    "Secondary": {
+      "_default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f1f5f2"
+        },
+        "color": {
+          "value": "#008832",
+          "type": "color"
+        }
+      },
+      "_hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#e4ece5"
+        },
+        "color": {
+          "value": "#00792c",
+          "type": "color"
+        }
+      },
+      "_active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#c5d7c8"
+        },
+        "color": {
+          "value": "#00792c",
+          "type": "color"
+        }
+      },
+      "_focus": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f1f5f2"
+        },
+        "color": {
+          "value": "#008832",
+          "type": "color"
+        },
+        "borderColors": {
+          "value": "#008832",
+          "type": "color"
+        }
+      },
+      "_disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f3f3f3"
+        },
+        "color": {
+          "type": "color",
+          "value": "#cecece"
+        }
+      },
+      "borderWidth": {
+        "value": 0,
+        "type": "borderWidth"
+      }
+    },
+    "borderRadius": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "md": {
+      "paddingLeft-Right": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "paddingTop-Bottom": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "fontSize": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "typography": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": "Bold",
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "fontSize"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": 0,
+          "type": "paragraphSpacing"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        }
+      },
+      "IconSize": {
+        "value": 16,
+        "type": "sizing"
+      }
+    }
+  },
+  "Checkbox": {
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#cecece",
+        "type": "color"
+      }
+    },
+    "_disabled": {
+      "backgroundColor": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "border": {
+        "value": "#b1b1b1",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#a1c0a5",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#008832",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "backgroundColor": {
+        "value": "#008832",
+        "type": "color"
+      },
+      "color": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#00792c",
+        "type": "color"
+      }
+    },
+    "borderRadius": {
+      "value": 4,
+      "type": "borderRadius"
+    },
+    "borderWidth": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "text": {
+      "enable": {
+        "value": "#36146b",
+        "type": "color"
+      },
+      "disable": {
+        "value": "#8f8f8f",
+        "type": "color"
+      }
+    }
+  },
+  "Radio": {
+    "borderWidth": {
+      "value": 1,
+      "type": "borderWidth"
+    },
+    "_default": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#cecece",
+        "type": "color"
+      }
+    },
+    "_disable": {
+      "backgroundColor": {
+        "value": "#e8e8e8",
+        "type": "color"
+      },
+      "border": {
+        "value": "#b1b1b1",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#008832",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "border": {
+        "value": "#a1c0a5",
+        "type": "color"
+      }
+    },
+    "text": {
+      "enable": {
+        "value": "#36146b",
+        "type": "color"
+      },
+      "disable": {
+        "value": "#8f8f8f",
+        "type": "color"
+      }
+    }
+  },
+  "Anchor": {
+    "_default": {
+      "color": {
+        "value": "#008832",
+        "type": "color"
+      }
+    },
+    "_hover": {
+      "color": {
+        "value": "#00792c",
+        "type": "color"
+      }
+    },
+    "_active": {
+      "color": {
+        "value": "#006926",
+        "type": "color"
+      }
+    },
+    "_focus": {
+      "color": {
+        "value": "#008832",
+        "type": "color"
+      }
+    },
+    "_disable": {
+      "color": {
+        "value": "#b1b1b1",
+        "type": "color"
+      }
+    },
+    "lg": {
+      "fontSize": {
+        "value": 18,
+        "type": "fontSizes"
+      },
+      "IconSize": {
+        "value": 20,
+        "type": "sizing"
+      }
+    },
+    "md": {
+      "fontSize": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "IconSize": {
+        "value": 16,
+        "type": "sizing"
+      }
+    },
+    "sm": {
+      "fontSize": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "IconSize": {
+        "value": 12,
+        "type": "sizing"
+      }
+    }
+  },
+  "Switch": {
+    "_active": {
+      "backgroundColor": {
+        "value": "#008832",
+        "type": "color"
+      }
+    },
+    "_active_disable": {
+      "backgroundColor": {
+        "value": "#c5d7c8",
+        "type": "color"
+      }
+    },
+    "_nonactive": {
+      "backgroundColor": {
+        "value": "#b1b1b1",
+        "type": "color"
+      }
+    },
+    "_nonactive_disable": {
+      "backgroundColor": {
+        "value": "#e8e8e8",
+        "type": "color"
+      }
+    }
+  },
+  "Button": {
+    "x": {
+      "value": 0,
+      "type": "x"
+    },
+    "y": {
+      "value": 0,
+      "type": "y"
+    },
+    "blur": {
+      "value": 0,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    },
+    "color": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
+  },
+  "Avatar": {
+    "lg": {
+      "Size": {
+        "value": 64,
+        "type": "sizing"
+      },
+      "IconSize": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "FontSize": {
+        "value": 18,
+        "type": "fontSizes"
+      }
+    },
+    "md": {
+      "Size": {
+        "value": 40,
+        "type": "sizing"
+      },
+      "IconSize": {
+        "value": 24,
+        "type": "sizing"
+      },
+      "FontSize": {
+        "value": 16,
+        "type": "fontSizes"
+      }
+    },
+    "sm": {
+      "Size": {
+        "value": 32,
+        "type": "sizing"
+      },
+      "IconSize": {
+        "value": 16,
+        "type": "sizing"
+      },
+      "FontSize": {
+        "value": 12,
+        "type": "fontSizes"
+      }
+    }
+  }
+}
