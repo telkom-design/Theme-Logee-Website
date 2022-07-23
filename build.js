@@ -47,7 +47,7 @@ function getStyleDictionaryConfig(theme) {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
         "buildPath": `src/tokens/`,
         "files": [{
-            "destination": `${theme}.js`,
+            "destination": `${theme}.ts`,
             "format": "typings/es6",
             "selector": `.${theme}-theme`
           }]
