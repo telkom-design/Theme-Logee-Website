@@ -48,7 +48,7 @@ function getStyleDictionaryConfig(theme) {
         "buildPath": `src/tokens/`,
         "files": [{
             "destination": `${theme}.js`,
-            "format": "javascript/es6",
+            "format": "typings/es6",
             "selector": `.${theme}-theme`
           }]
       }
