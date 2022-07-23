@@ -40,12 +40,12 @@ StyleDictionaryPackage.registerTransform({
 function getStyleDictionaryConfig(theme) {
   return {
     "source": [
-      `resources/${theme}.json`,
+      `src/resources/${theme}.json`,
     ],
     "platforms": {
       "web": {
         "transforms": ["attribute/cti", "name/cti/kebab", "sizes/px"],
-        "buildPath": `tokens/`,
+        "buildPath": `src/tokens/`,
         "files": [{
             "destination": `${theme}.js`,
             "format": "javascript/es6",
