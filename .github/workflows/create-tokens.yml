@@ -12,13 +12,13 @@ jobs:
       # Install dependencies
       - run: npm install
       # Transform Figma Tokens JSON to something Style Dictionary can read
-      - run: npx token-transformer tokens.json tokens/foundation.json foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json resources/foundation.json foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/logee-transportation.json foundation,logee-transportation,theme foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json resources/logee-transportation.json foundation,logee-transportation,theme foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/logee-distribution.json foundation,logee-distribution,theme foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json resources/logee-distribution.json foundation,logee-distribution,theme foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
-      - run: npx token-transformer tokens.json tokens/logee-control-tower.json foundation,logee-control-tower,theme foundation --expandTypography --expandShadow
+      - run: npx token-transformer tokens.json resources/logee-control-tower.json foundation,logee-control-tower,theme foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
