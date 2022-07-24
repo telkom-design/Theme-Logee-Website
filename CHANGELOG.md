@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.2...v1.0.3) (2022-07-24)
+
+
+### Bug Fixes
+
+* **Dependencies:** fix npm auth ([ef7e232](https://github.com/telkom-design/Theme-Logee-Website/commit/ef7e2327534be6cc7936641f99ce799c99f2333e))
+
 ## [1.0.2](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.1...v1.0.2) (2022-07-24)
 
 
