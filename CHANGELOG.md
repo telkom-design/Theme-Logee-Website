@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.0...v1.0.1) (2022-07-24)
+
+
+### Bug Fixes
+
+* **Dependencies:** Add .npmrc ([e94f0e9](https://github.com/telkom-design/Theme-Logee-Website/commit/e94f0e9e6564be42b75689a228a75b60dfe88996))
+
 ## 1.0.0 (2022-07-24)
 
 
