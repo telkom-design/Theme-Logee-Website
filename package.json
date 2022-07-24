@@ -32,7 +32,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@sample/theme",
+  "name": "@telkom-design/theme",
   "author": "Telkom Design",
   "module": "dist/theme.esm.js",
   "size-limit": [
@@ -52,6 +52,43 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.5.5"
+  },
+  "release": {
+  "branches": ["main"],
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
+      }
+    ],
+    [
+      "@semantic-release/npm",
+      {
+        "tarballDir": "pack"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": "pack/*.tgz",
+        "failComment": false
+      }
+    ],
+    "@semantic-release/git"
+  ]
   },
     "dependencies": {
         "style-dictionary": "^3.0.2",
