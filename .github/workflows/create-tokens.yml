@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-          registry-url: 'registry=https://nexus.playcourt.id/repository/npm/'
+          registry-url: 'registry=https://nexus.playcourt.id/repository/npm-private/'
       - name: Publish
         run: |
               npm unpublish @legion-ui/theme-logee --force
