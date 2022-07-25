@@ -34,9 +34,7 @@ jobs:
           node-version: 14.x
           registry-url: 'registry=https://nexus.playcourt.id/repository/npm-private/'
       - name: Publish
-        run: |
-          npm unpublish @legion-ui/theme-logee --force
-          npm publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
       - name: Saving changes
