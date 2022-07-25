@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.7](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.6...v1.0.7) (2022-07-25)
+
+
+### Bug Fixes
+
+* registry ([948b7b4](https://github.com/telkom-design/Theme-Logee-Website/commit/948b7b43eb0a388e225ab530586e8da462f6c2d7))
+
 ## [1.0.6](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.5...v1.0.6) (2022-07-25)
 
 
