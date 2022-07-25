@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "logee-theme",
+  "name": "@legion-ui/theme-logee",
   "author": "Telkom Design",
   "module": "dist/theme.esm.js",
   "size-limit": [
@@ -55,9 +55,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/telkom-design/Theme-Logee-Website"
-  },
-  "publishConfig": {
-    "registry": "https://nexus.playcourt.id/repository/npm-private/"
   },
   "release": {
     "branches": [

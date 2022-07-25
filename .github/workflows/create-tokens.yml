@@ -22,9 +22,27 @@ jobs:
       # Create a light theme, exclude the global tokens
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
-      - name: Semantic release
+      - name:  'Automated Version Bump'
+        uses:  'phips28/gh-action-bump-version@master'
         env:
-          CI: true
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
+        with:
+          default: prerelease
+      - name: Install
+        if: steps.cache-modules.outputs.cache-hit != 'true'
+        run: yarn install --force
+      - name: Setup Node ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+          registry-url: 'registry=https://nexus.playcourt.id/repository/npm-private/'
+      - name: Publish
+        run: |
+              npm unpublish @legion-ui/theme-logee-sales --force
+              yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+      - name: Saving changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "update: theme"
