@@ -56,6 +56,9 @@
     "type": "git",
     "url": "https://github.com/telkom-design/Theme-Logee-Website"
   },
+  "publishConfig": {
+    "registry": "https://nexus.playcourt.id/repository/npm-private/"
+  },
   "release": {
     "branches": [
       "main"
