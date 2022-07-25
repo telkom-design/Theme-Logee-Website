@@ -1658,7 +1658,7 @@
     "micromatch" "^4.0.0"
     "p-reduce" "^2.0.0"
 
-"@semantic-release/github@^8.0.0":
+"@semantic-release/github@^8.0.0", "@semantic-release/github@^8.0.5":
   "integrity" "sha512-9pGxRM3gv1hgoZ/muyd4pWnykdIUVfCiev6MXE9lOyGQof4FQy95GFE26nDcifs9ZG7bBzV8ue87bo/y1zVf0g=="
   "resolved" "https://registry.npmjs.org/@semantic-release/github/-/github-8.0.5.tgz"
   "version" "8.0.5"
@@ -1680,7 +1680,7 @@
     "p-retry" "^4.0.0"
     "url-join" "^4.0.0"
 
-"@semantic-release/npm@^9.0.0":
+"@semantic-release/npm@^9.0.0", "@semantic-release/npm@^9.0.1":
   "integrity" "sha512-I5nVZklxBzfMFwemhRNbSrkiN/dsH3c7K9+KSk6jUnq0rdLFUuJt7EBsysq4Ir3moajQgFkfEryEHPqiKJj20g=="
   "resolved" "https://registry.npmjs.org/@semantic-release/npm/-/npm-9.0.1.tgz"
   "version" "9.0.1"
@@ -3543,9 +3543,9 @@
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
 
-"esbuild-linux-64@0.14.49":
-  "integrity" "sha512-hYmzRIDzFfLrB5c1SknkxzM8LdEUOusp6M2TnuQZJLRtxTgyPnZZVtyMeCLki0wKgYPXkFsAVhi8vzo2mBNeTg=="
-  "resolved" "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.14.49.tgz"
+"esbuild-windows-64@0.14.49":
+  "integrity" "sha512-+Cme7Ongv0UIUTniPqfTX6mJ8Deo7VXw9xN0yJEN1lQMHDppTNmKwAM3oGbD/Vqff+07K2gN0WfNkMohmG+dVw=="
+  "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.14.49.tgz"
   "version" "0.14.49"
 
 "esbuild@^0.14.18":

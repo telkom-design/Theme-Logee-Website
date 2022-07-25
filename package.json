@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@telkom-design/theme",
+  "name": "logee-theme",
   "author": "Telkom Design",
   "module": "dist/theme.esm.js",
   "size-limit": [
@@ -54,10 +54,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/telkom-design/Theme-Logee-Website.git"
+    "url": "https://github.com/telkom-design/Theme-Logee-Website"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://nexus.playcourt.id/repository/npm-private/"
   },
   "release": {
     "branches": [
