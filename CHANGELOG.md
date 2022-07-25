@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.8...v1.0.9) (2022-07-25)
+
+
+### Bug Fixes
+
+* dispatch CI Install ([7d7f1e8](https://github.com/telkom-design/Theme-Logee-Website/commit/7d7f1e87be7f340eb74077ef342f110e3c3bf597))
+
 ## [1.0.8](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.7...v1.0.8) (2022-07-25)
 
 
