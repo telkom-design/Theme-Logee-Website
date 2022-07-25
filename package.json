@@ -57,7 +57,7 @@
     "url": "https://github.com/telkom-design/Theme-Logee-Website.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "release": {
     "branches": [
