@@ -28,9 +28,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         with:
           default: prerelease
-      - name: Install
-        if: steps.cache-modules.outputs.cache-hit != 'true'
-        run: yarn install --force
       - name: Setup Node ${{ matrix.node_version }}
         uses: actions/setup-node@v1
         with:
