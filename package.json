@@ -19,7 +19,6 @@
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
-  "peerDependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -62,52 +61,13 @@
   "release": {
     "branches": [
       "main"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/release-notes-generator",
-        {
-          "preset": "conventionalcommits"
-        }
-      ],
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
-        }
-      ],
-      [
-        "@semantic-release/npm",
-        {
-          "tarballDir": "pack"
-        }
-      ],
-      [
-        "@semantic-release/github",
-        {
-          "assets": "pack/*.tgz",
-          "failComment": false
-        }
-      ],
-      "@semantic-release/git"
     ]
   },
   "dependencies": {
-    "style-dictionary": "^3.0.2",
     "@theme-ui/css": "^0.13.1",
     "@theme-ui/preset-base": "^0.13.1",
-    "deepmerge": "^4.2.2",
-    "@semantic-release/github": "^8.0.5",
-    "@semantic-release/npm": "^9.0.1",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
-    "semantic-release": "^19.0.3"
+    "deepmerge": "^4.2.2",
+    "style-dictionary": "^3.0.2"
   }
 }
