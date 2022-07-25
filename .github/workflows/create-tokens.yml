@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       # Install dependencies
-      - run: npm install
+      - run: npm ci
       # Transform Figma Tokens JSON to something Style Dictionary can read
       - run: npx token-transformer tokens.json src/resources/foundation.json foundation --expandTypography --expandShadow
       # Create a light theme, exclude the global tokens
@@ -22,11 +22,9 @@ jobs:
       # Create a light theme, exclude the global tokens
       - run: node build.js
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Update Tokens
-      - name: Release
+      - name: Semantic release
         env:
+          CI: true
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release

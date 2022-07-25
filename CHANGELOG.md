@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.10](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.9...v1.0.10) (2022-07-25)
+
+
+### Bug Fixes
+
+* CI ([5416e08](https://github.com/telkom-design/Theme-Logee-Website/commit/5416e087db5578cf66a26ee138ae1405f1df83e1))
+
+## [1.0.9](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.8...v1.0.9) (2022-07-25)
+
+
+### Bug Fixes
+
+* dispatch CI Install ([7d7f1e8](https://github.com/telkom-design/Theme-Logee-Website/commit/7d7f1e87be7f340eb74077ef342f110e3c3bf597))
+
+## [1.0.8](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.7...v1.0.8) (2022-07-25)
+
+
+### Bug Fixes
+
+* package.json ([de71360](https://github.com/telkom-design/Theme-Logee-Website/commit/de7136038ef2fa9ce554f2a777f996077c8e793e))
+* registry ([e450f46](https://github.com/telkom-design/Theme-Logee-Website/commit/e450f46d78789bb40692a4e666c6222ede9fddc6))
+
+## [1.0.7](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.6...v1.0.7) (2022-07-25)
+
+
+### Bug Fixes
+
+* registry ([948b7b4](https://github.com/telkom-design/Theme-Logee-Website/commit/948b7b43eb0a388e225ab530586e8da462f6c2d7))
+
+## [1.0.6](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.5...v1.0.6) (2022-07-25)
+
+
+### Bug Fixes
+
+* fix auth registry ([6a6d205](https://github.com/telkom-design/Theme-Logee-Website/commit/6a6d20511cad8f9fe8925a0e4e51b7ef914a5f29))
+
+## [1.0.5](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.4...v1.0.5) (2022-07-25)
+
+
+### Bug Fixes
+
+* npmrc ([218347c](https://github.com/telkom-design/Theme-Logee-Website/commit/218347c518d4f344f14f9a55db58a4a3aaf0ac0a))
+
 ## [1.0.4](https://github.com/telkom-design/Theme-Logee-Website/compare/v1.0.3...v1.0.4) (2022-07-24)
 
 
