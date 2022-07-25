@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.6",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -57,7 +57,7 @@
     "url": "https://github.com/telkom-design/Theme-Logee-Website.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/:_authToken=${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}"
+    "registry": "https://registry.npmjs.org/"
   },
   "release": {
     "branches": [
